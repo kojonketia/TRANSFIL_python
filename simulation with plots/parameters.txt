@@ -1,0 +1,40 @@
+1.0 : riskMu1 
+1.0 : riskMu2 
+1.0 : riskMu3 
+0.065 : shapeRisk //shape parameter for bite-risk distribution (0.1/0.065)
+0.0104 : mu //death rate of worms
+0.0 : theta //0.001 //immune system response parameter. 0.112
+0.1 :  gamma //mf death rate
+0.58 : alpha //mf birth rate per fertile worm per 20 uL of blood.
+10 : lbda //number of bites per mosquito per month.
+7.0 : v_to_h  //vector to host ratio (39.,60.,120.) 
+4.395 :  kappas1 //vector uptake and development anophelene
+0.055 : r1 //vector uptake and development anophelene
+0.00167 : tau  //death rate of population
+0.0 : z  //waning immunity
+0.0 : nu  //poly-monogamy parameter       
+0.0 : L3  //larvae density.
+0.37 : g //Proportion of mosquitoes which pick up infection when biting an infected host
+5.0 : sig //death rate of mosquitos
+0.414 : psi1 //Proportion of L3 leaving mosquito per bite
+0.32 : psi2 //Proportion of L3 leaving mosquito that enter host
+1.0 : dt //time spacing (months) 
+1.0 : lbdaR //use of bed-net leading to reduction in bite rate
+1.0 : v_to_hR //use of residual-spraying leading to reduction in v_to_h 
+7 : nMDA //number of rounds of MDA
+12 : mdaFreq //frequency of MDA (months)
+0.65 : covMDA //coverage of MDA
+0.00275 : s2 //probability of L3 developing into adult worm.
+0.95 : chi //proportion of mf removed for a single MDA round.
+0.55 : tau //proportion of worms permanently sterilised for a single MDA round. (0.55)
+0.999 : rho //proportion of systematic non-compliance 0- none 1- all.
+0 : mosquitoSpecies // 0 - Anopheles facilitation squared, 1 - Culex limitation linear.
+0.0 : rhoBU //correlation between bite risk and systematic non-compliance.
+0 : aWol //using doxycycline in intervention 0- not used, 1- is used.
+5.0 : sigR //new mortality rate of mosquitoes during vector intervention.
+0.47 : covN //coverage of bed nets.
+0.99 : sysCompN //systematic non-compliance of bed nets. set to near one.
+0.0 : rhoCN //correlation between receiving chemotherapy and use of bed nets. 
+0 : IDAControl //if 1 then programme switches to IDA after five rounds of standard MDA defined with chi and tau.
+1.0 : IDAchi //proportion of mf removed for IDA regimen.
+1.0 : IDAtau //proportion of worms removed for IDA regimen.
