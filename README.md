@@ -1,5 +1,5 @@
 # TRANSFIL_python
-A python code of the TRANSFIL model developed by MIke Irvine used to model the dynamics of lympahtic filariasis (LF) over time.  The model simulates individuals with varying worm burden, microfilaraemia, and demographic factors associated with age and susceptibility to infection using a stochastic micro-simulation approach.
+A python code of the TRANSFIL model developed by Mike Irvine used to model the dynamics of lympahtic filariasis (LF) over time.  The model simulates individuals with varying worm burden, microfilaraemia, and demographic factors associated with age and susceptibility to infection using a stochastic micro-simulation approach.
 
 A full model description can be description can be found here: https://parasitesandvectors.biomedcentral.com/articles/10.1186/s13071-015-1152-3.
 
